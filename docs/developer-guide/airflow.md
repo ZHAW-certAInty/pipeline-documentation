@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Airflow
 
 [Airflow](https://airflow.apache.org/docs/apache-airflow/stable/index.html) is used for scheduling and monitoring the data pipeline. It consists of the following components:

@@ -2,46 +2,30 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# MLOps Pipeline
 
-Let's discover **Docusaurus in less than 5 minutes**.
+### User Guide
+- [User Guide](category/user-guide)
 
-## Getting Started
+### Developer Guide
+- [Developer Guide](category/developer-guide)
 
-Get started by **creating a new site**.
+## Goals
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+The pipeline was originally designed for the certAInty project but is meant to be general enough to be used for other projects as well.
 
-### What you'll need
+**Robustness:** Data should persist even if the pipeline fails.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+**Reproducibility:** The pipeline should be reproducible.
 
-## Generate a new site
+**Scalability:** The pipeline should be able to scale to multiple machines.
 
-Generate a new Docusaurus site using the **classic template**.
+**Flexibility:** The pipeline should be able to run on different machines.
 
-The classic template will automatically be added to your project after you run the command:
+**Monitoring:** The pipeline should be able to monitor itself.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+**Logging:** The pipeline should be able to log itself.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+**Parity:** The pipeline should be able to run in production.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+**Visualization:** The pipeline should be able to visualize itself.
