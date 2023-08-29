@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmlops_pipeline=self.webpackChunkmlops_pipeline||[]).push([[8084],{4632:e=>{e.exports=JSON.parse('{"permalink":"/mlops-pipeline/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
