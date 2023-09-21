@@ -4,9 +4,13 @@ sidebar_position: 1
 
 # Welcome
 
-## CI/CD Pipeline
+## MLOps pipeline
 
-The CI/CD pipeline is set up using [GitHub Actions](github_actions). The pipeline is triggered by a push to the pipeline branch. The pipeline consists of the following steps:
+The MLOps pipeline is currently developed and maintained on the [GitHub repository](https://github.com/ZHAW-certAInty/toolbox/tree/pipeline/bily) of the certAInty project.
+
+## CI/CD
+
+CI/CD is implemented using [GitHub Actions](github_actions). The pipeline is triggered by a push to the `pipeline` branch and consists of the following steps:
 
 - **Entrypoint**: The pipeline is triggered by a push to the pipeline branch.
 - **Pushing the Model to DGX**: The model is pushed to the DGX server.

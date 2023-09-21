@@ -6,7 +6,7 @@ sidebar_position: 1
 
 :::caution
 
-The dataset must be pushed to the pipeline's data repo before running the pipeline.
+The dataset must be pushed to the pipeline's data repo before running the experiment.
 
 :::
 
