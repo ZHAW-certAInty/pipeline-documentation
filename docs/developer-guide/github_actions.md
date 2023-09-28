@@ -9,6 +9,12 @@ To effectively monitor the pipeline's repository, you need an active self-hosted
 
 ## Implementation
 
+:::caution Requirements
+
+The following implementation requires the pipeline to be set up like described in the [Development Setup](development_setup) with `Docker` and `Slurm` running on the deployment instance.
+
+:::
+
 To configure and maintain GitHub Actions, it's essential to work within the pipeline's `.github/workflows` directory. The current configuration appears as follows, with the three most critical lines highlighted:
 
 - `branches: [ "pipeline" ]`: This line specifies the branch that GitHub Actions monitors.

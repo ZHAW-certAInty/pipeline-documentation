@@ -58,3 +58,9 @@ For testing a model that has been trained using the pipeline, you can follow the
 
 ## Reusing a Trained Model
 If you wish to retrain a model based on previous results, please consult `dag_bily_using_trained_yolov5_example.py`.
+
+## Monitor Your Model with Airflow and MLflow
+
+As of now, you must inquire with your assigned MLOps engineer to identify the server instance where Airflow and MLflow are hosted and your credentials.
+Once identified, establish a connection to this instance and configure port forwarding for Airflow and MLflow, either [manually](https://cai.cloudlab.zhaw.ch/pages/gpu/dgx-servers/docker_and_ssh.html#setting-up-ssh-forwarding) or [automatically](developer-guide/development_setup#prerequisites).
+Following these steps, you can conveniently access their web interfaces through your browser, using a URL such as `http://localhost:8790`.

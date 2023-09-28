@@ -10,15 +10,15 @@ const config = {
   favicon: 'img/zhaw_icon.svg',
 
   // Set the production url of your site here
-  url: 'https://lulezhaw.github.io',
+  url: 'https://zhaw-certainty.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/mlops-pipeline/',
+  baseUrl: '/pipeline-documentation/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'lulezhaw', // Usually your GitHub org/user name.
-  projectName: 'mlops-pipeline', // Usually your repo name.
+  organizationName: 'zhaw-certainty', // Usually your GitHub org/user name.
+  projectName: 'pipeline-documentation', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 

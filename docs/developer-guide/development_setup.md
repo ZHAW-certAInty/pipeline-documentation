@@ -30,6 +30,14 @@ An SSH connection to a DGX instance should be configured as explained [here](htt
 
 It is highly recommended to use [VSCode](https://code.visualstudio.com/) and its [Remote SSH Extension](https://code.visualstudio.com/docs/remote/ssh) for development as it allows neat automatic port forwarding.
 
+:::info Deployment
+
+The current deployment scenario of the pipeline requires `Docker` and `Slurm` to be running on the instance of deployment.
+Whereas the pipeline would run on `Docker` only, the workers that run [DAGs](https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/dags.html) are automatically created in new `Slurm` jobs.
+This follows our desire to separate the concerns into containers and thereby requires us to work with Airflow's [Celery Executor](https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/executor/celery.html).
+
+:::
+
 ## Pipeline Setup
 
 Create a directory of your choice and clone the pipeline repo into it.
