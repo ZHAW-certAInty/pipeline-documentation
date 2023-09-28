@@ -7,7 +7,7 @@ slug: /
 
 ## User Guide
 
-How to use the pipeline as an MLE who wants to train a model leveraging the pipeline's amenities in terms of visualization and reduced overhead can be found in the [User Guide](category/user-guide).
+How to use the pipeline as an MLE who wants to train a model leveraging the pipeline's amenities in terms of visualization and reduced overhead can be found in the [User Guide](user_guide).
 
 ## Developer Guide
 
@@ -17,7 +17,7 @@ The [Developer Guide](category/developer-guide) enlightens any MLOps engineer wh
 
 Here is a list of introductory materials on MLOps that will help you get started on the right foot. Feel free to explore these resources to gain valuable insights into MLOps. They cover various aspects of Machine Learning Operations, from data pipelines and model development to deployment in production.
 
-### Books with Code Samples:
+### Books with Code Samples
 
 1. **Data Pipelines With Apache Airflow** (Authors: Bas P. Harenslak, Julian Rutger De Ruiter)
    - GitHub Repository: [data-pipelines-with-apache-airflow](https://github.com/BasPH/data-pipelines-with-apache-airflow)
@@ -28,7 +28,7 @@ Here is a list of introductory materials on MLOps that will help you get started
 3. **Designing Machine Learning Systems** (Author: Chip Huyen)
    - GitHub Repository: [machine-learning-systems-design](https://github.com/chiphuyen/machine-learning-systems-design)
 
-### Tutorials and Courses:
+### Tutorials and Courses
 
 1. **Made With ML** by Goku Mohandas
    - Website: [madewithml.com](https://madewithml.com/)

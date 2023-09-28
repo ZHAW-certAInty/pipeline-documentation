@@ -21,5 +21,3 @@ sidebar_position: 3
 - **Minio 2021.6.17+**
 - **Ubuntu 22.04+**
 - **Docker 20.10+**
-
-## Deployment Scenario/Level of Automation
